@@ -4,9 +4,27 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+  font-size: 16px;
 }
 
-.container {
-  max-width: 800px;
+#container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.states-container li {
+  list-style-type: none;
+}
+
+input[type="checkbox"] {
+  margin: 5px;
+}
+
+#states-intro {
+  font-size: 18px;
+  font-weight: bold;
 }
